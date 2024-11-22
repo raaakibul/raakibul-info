@@ -60,16 +60,6 @@ nav ul li a:hover {
     background-color: #f1f1f1;
 }
 
-/* Main Section */
-main {
-    padding: 20px;
-}
-
-main h2 {
-    font-size: 2rem;
-    color: #444;
-    margin-bottom: 20px;
-}
 
 /* Image Container */
 .image-container {
@@ -102,9 +92,5 @@ main h2 {
 
     nav ul li a {
         font-size: 0.9rem;
-    }
-
-    main h2 {
-        font-size: 1.5rem;
     }
 }
