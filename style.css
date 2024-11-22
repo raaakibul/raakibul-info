@@ -9,17 +9,16 @@ body, h1, h2, p, ul, li, a {
 body {
     font-family: Arial, sans-serif;
     background-color: #e6e6e6;
-    color: #333;
-    text-align: center;
     margin: 0;
     padding: 0;
 }
 
 /* Header */
 header {
-    background-color: #fff;
+    background-color: #E6E6E6;
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 header h1 {
@@ -34,7 +33,7 @@ header p {
 
 /* Navigation Menu */
 nav {
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
 }
@@ -60,6 +59,49 @@ nav ul li a:hover {
     background-color: #f1f1f1;
 }
 
+/* home section */
+.top-banner{
+    margin-left: 330px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 600px;
+}
+
+.banner .profile-pic {
+    width: 20%;
+    margin-right: 25%;
+}
+
+.banner-greeting {
+    font-size: 30px;
+    color: #474747;
+    /* margin-bottom: 0; */
+    margin-top: 1px;
+}
+
+.banner-description{
+    font-size: 18px;
+    color: #666;
+}
+.research{
+    padding-top: 20px;
+}
+.research-title{
+    font-size: 22px;
+    color: #474747;
+}
+.list{
+    list-style-type: none;
+}
 
 /* Image Container */
 /* .image-container {
